@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Purple-->
+  <color name="purple_700">#3700B3</color>
+  <color name="purple_600">#453473</color>
+  <color name="purple_500">#574191</color>
+  <color name="purple_400">#7356BF</color>
+  <color name="purple_300">#957FCE</color>
+  <color name="purple_200">#C1B5E3</color>
+  <color name="purple_100">#E3DDF2</color>
+  <color name="purple_50">#F4F1FA</color>
+  <!--  Cobalt-->
+  <color name="cobalt_700">#050C4D</color>
+  <color name="cobalt_600">#081270</color>
+  <color name="cobalt_500">#0A1899</color>
+  <color name="cobalt_400">#0E1FC1</color>
+  <color name="cobalt_300">#535FCF</color>
+  <color name="cobalt_200">#949CE3</color>
+  <color name="cobalt_100">#D2D7F0</color>
+  <color name="cobalt_50">#EBEDFA</color>
+  <!--Blue-->
+  <color name="blue_700">#102C60</color>
+  <color name="blue_600">#174291</color>
+  <color name="blue_500">#1E54B7</color>
+  <color name="blue_400">#276EF1</color>
+  <color name="blue_300">#5B91F5</color>
+  <color name="blue_200">#A0BFF8</color>
+  <color name="blue_100">#D4E2FC</color>
+  <color name="blue_50">#EFF3FE</color>
+  <!--Green-->
+  <color name="green_700">#10462D</color>
+  <color name="green_600">#03582F</color>
+  <color name="green_500">#03703C</color>
+  <color name="green_400">#05944F</color>
+  <color name="green_300">#06C167</color>
+  <color name="green_200">#66D19E</color>
+  <color name="green_100">#ADDEC9</color>
+  <color name="green_50">#E6F2ED</color>
+  <!--Yellow-->
+  <color name="yellow_700">#674D1B</color>
+  <color name="yellow_600">#997328</color>
+  <color name="yellow_500">#BC8B2C</color>
+  <color name="yellow_400">#FFC043</color>
+  <color name="yellow_300">#FFCF70</color>
+  <color name="yellow_200">#FFE3AC</color>
+  <color name="yellow_100">#FFF2D9</color>
+  <color name="yellow_50">#FFFAF0</color>
+  <!--Orange-->
+  <color name="orange_700">#672A16</color>
+  <color name="orange_600">#9A3F21</color>
+  <color name="orange_500">#C14F29</color>
+  <color name="orange_400">#FF6937</color>
+  <color name="orange_300">#FA9269</color>
+  <color name="orange_200">#FABDA5</color>
+  <color name="orange_100">#FFE1D6</color>
+  <color name="orange_50">#FFF3EF</color>
+  <!--Red-->
+  <color name="red_700">#5A0A00</color>
+  <color name="red_600">#870F00</color>
+  <color name="red_500">#AB1300</color>
+  <color name="red_400">#E11900</color>
+  <color name="red_300">#E85C4A</color>
+  <color name="red_200">#F1998E</color>
+  <color name="red_100">#FED7D2</color>
+  <color name="red_50">#FFEFED</color>
+  <!--Brown-->
+  <color name="brown_700">#3D281E</color>
+  <color name="brown_600">#5C3C2E</color>
+  <color name="brown_500">#744C3A</color>
+  <color name="brown_400">#99644C</color>
+  <color name="brown_300">#B18977</color>
+  <color name="brown_200">#D2BBB0</color>
+  <color name="brown_100">#EBE0DB</color>
+  <color name="brown_50">#F6F0EA</color>
+  <!--Gray-->
+  <color name="gray_900">#141414</color>
+  <color name="gray_900_p20">#33141414</color>
+  <color name="gray_800">#1F1F1F</color>
+  <color name="gray_700">#333333</color>
+  <color name="gray_600">#545454</color>
+  <color name="gray_500">#757575</color>
+  <color name="gray_400">#AFAFAF</color>
+  <color name="gray_300">#CBCBCB</color>
+  <color name="gray_250">#D3D3D3</color>
+  <color name="gray_200">#E2E2E2</color>
+  <color name="gray_200_p08">#34E2E2E2</color>
+  <color name="gray_150">#E6E6E6</color>
+  <color name="gray_100">#EEEEEE</color>
+  <color name="gray_50">#F6F6F6</color>
+  <!--Platinum-->
+  <color name="platinum_800">#142328</color>
+  <color name="platinum_700">#394145</color>
+  <color name="platinum_600">#556268</color>
+  <color name="platinum_500">#6C7C83</color>
+  <color name="platinum_400">#8FA3AD</color>
+  <color name="platinum_300">#A1BDCA</color>
+  <color name="platinum_200">#CCDFE5</color>
+  <color name="platinum_100">#EBF5F7</color>
+  <color name="platinum_50">#F4FAFB</color>
+  <!--Other-->
+  <color name="transparent">#00000000</color>
+  <color name="black">#000000</color>
+  <color name="black_p08">#14000000</color>
+  <color name="black_p30">#4D000000</color>
+  <color name="white">#FFFFFF</color>
+  <color name="white_p20">#33FFFFFF</color>
+  <!--Foundation-->
+  <color name="primary_a">@color/black</color>
+  <color name="primary_a_p08">@color/black_p08</color>
+  <color name="primary_b">@color/white</color>
+  <color name="primary_b_p20">@color/white_p20</color>
+  <color name="accent">@color/blue_400</color>
+  <color name="negative">@color/red_400</color>
+  <color name="warning">@color/yellow_400</color>
+  <color name="positive">@color/green_400</color>
+  <!--Core Background-->
+  <color name="background_primary">@color/primary_b</color>
+  <color name="background_secondary">@color/gray_50</color>
+  <color name="background_tertiary">@color/gray_100</color>
+  <color name="background_inverse_primary">@color/primary_a</color>
+  <color name="background_inverse_secondary">@color/gray_800</color>
+  <!--Core Content-->
+  <color name="content_primary">@color/primary_a</color>
+  <color name="content_secondary">@color/gray_600</color>
+  <color name="content_tertiary">@color/gray_500</color>
+  <color name="content_inverse_primary">@color/primary_b</color>
+  <color name="content_inverse_secondary">@color/gray_300</color>
+  <color name="content_inverse_tertiary">@color/gray_400</color>
+  <!--Core Border-->
+  <color name="border_opaque">@color/gray_200</color>
+  <color name="border_transparent">@color/primary_a_p08</color>
+  <color name="border_selected">@color/primary_a</color>
+  <color name="border_inverse_opaque">@color/gray_700</color>
+  <color name="border_inverse_transparent">@color/primary_b_p20</color>
+  <color name="border_inverse_selected">@color/primary_b</color>
+  <!--Core Extensions Background-->
+  <color name="background_state_disabled">@color/gray_50</color>
+  <color name="background_state_pressed_primary">@color/gray_700</color>
+  <color name="background_state_pressed_secondary">@color/gray_250</color>
+  <color name="background_state_pressed_tertiary">@color/gray_150</color>
+  <color name="background_overlay_dark">@color/black_p30</color>
+  <color name="background_overlay_light">@color/black_p08</color>
+  <color name="background_accent">@color/accent</color>
+  <color name="background_negative">@color/negative</color>
+  <color name="background_warning">@color/warning</color>
+  <color name="background_positive">@color/positive</color>
+  <color name="background_light_accent">@color/blue_50</color>
+  <color name="background_light_negative">@color/red_50</color>
+  <color name="background_light_warning">@color/yellow_50</color>
+  <color name="background_light_positive">@color/green_50</color>
+  <color name="background_always_dark">@color/black</color>
+  <color name="background_always_light">@color/white</color>
+  <!--  Core Extensions Content-->
+  <color name="content_state_disabled">@color/gray_400</color>
+  <color name="content_on_color">@color/white</color>
+  <color name="content_accent">@color/blue_400</color>
+  <color name="content_negative">@color/red_400</color>
+  <color name="content_warning">@color/yellow_500</color>
+  <color name="content_positive">@color/gray_400</color>
+  <!--  Core Extensions Border-->
+  <color name="border_state_disabled">@color/green_50</color>
+  <color name="border_accent">@color/blue_400</color>
+  <color name="border_accent_light">@color/blue_200</color>
+  <color name="border_negative">@color/red_200</color>
+  <color name="border_warning">@color/yellow_200</color>
+  <color name="border_positive">@color/green_200</color>
+</resources>

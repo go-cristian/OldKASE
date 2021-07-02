@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/background_primary"
+  >
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/UITheme.Container.Margin"
+    >
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/sample_text"
+      style="@style/UITheme.Typography.Display.Large"
+      />
+
+    <Space
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      style="@style/UITheme.Spacer.64"
+      />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/sample_text"
+      style="@style/UITheme.Typography.Display.Medium"
+      />
+
+    <Space
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      style="@style/UITheme.Spacer.34"
+      />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/sample_text"
+      style="@style/UITheme.Typography.Display.Small"
+      />
+
+    <Space
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      style="@style/UITheme.Spacer.24"
+      />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/sample_text"
+      style="@style/UITheme.Typography.Display.XSmall"
+      />
+
+    <Space
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      style="@style/UITheme.Spacer.20"
+      />
+  </LinearLayout>
+</ScrollView>

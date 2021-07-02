@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iyubinest.oldkase.blocks.SquareView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  style="@style/UITheme.Container.Margin"
+  >
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      tools:text="Title"
+      />
+
+    <TextView
+      android:id="@+id/subtitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      tools:text="Subtitle"
+      />
+
+  </LinearLayout>
+
+</com.iyubinest.oldkase.blocks.SquareView>

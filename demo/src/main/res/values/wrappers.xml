@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="UITheme.Container">
+    <item name="android:minHeight">72dp</item>
+    <item name="android:background">@color/content_inverse_primary</item>
+  </style>
+
+  <style name="UITheme.Container.Margin">
+    <item name="android:paddingStart">16dp</item>
+    <item name="android:paddingEnd">16dp</item>
+    <item name="android:paddingTop">22dp</item>
+    <item name="android:paddingBottom">22dp</item>
+  </style>
+
+  <style name="UITheme.ListItem" parent="UITheme.Container.Margin">
+    <item name="android:gravity">center|start</item>
+    <item name="android:background">@drawable/border_bottom</item>
+  </style>
+
+  <style name="UITheme.ListItemCaret">
+    <item name="android:backgroundTint">@color/content_primary</item>
+    <item name="android:layout_height">24dp</item>
+    <item name="android:layout_width">24dp</item>
+  </style>
+
+  <style name="UITheme.Inner" parent="UITheme.Container.Margin">
+    <item name="android:gravity">center|start</item>
+    <item name="android:paddingTop">0dp</item>
+    <item name="android:paddingBottom">0dp</item>
+    <item name="android:background">@drawable/border_bottom</item>
+  </style>
+
+  <style name="UITheme.Drawer">
+    <item name="android:layout_gravity">start</item>
+    <item name="android:background">@color/primary_b</item>
+    <item name="itemIconTint">@color/primary_a</item>
+    <item name="itemTextAppearance">@style/UITheme.Typography.Label</item>
+  </style>
+
+  <style name="UITheme.Toolbar">
+    <item name="android:minHeight">?attr/actionBarSize</item>
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:elevation">0dp</item>
+    <item name="titleTextAppearance">@style/UITheme.Typography.Label</item>
+    <item name="titleTextColor">@color/content_primary</item>
+    <item name="navigationIconTint">@color/content_primary</item>
+    <item name="android:textColorPrimary">@color/content_primary</item>
+  </style>
+
+  <style name="UITheme.Sheet" />
+
+  <style name="UITheme.Sheet.Theme" parent="Theme.Design.Light.BottomSheetDialog">
+    <item name="bottomSheetStyle">@style/UITheme.Sheet.ThemeStyle</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:colorBackground">@android:color/transparent</item>
+    <item name="android:backgroundDimEnabled">true</item>
+    <item name="android:backgroundDimAmount">0.2</item>
+    <item name="android:windowFrame">@null</item>
+    <item name="android:windowIsFloating">true</item>
+  </style>
+
+  <style name="UITheme.Sheet.ThemeStyle" parent="Widget.Design.BottomSheet.Modal">
+    <item name="android:background">@drawable/header_background</item>
+  </style>
+
+  <style name="UITheme.Sheet.Header" />
+
+  <style name="UITheme.Sheet.Header.Wrapper">
+    <item name="android:elevation">8dp</item>
+    <item name="android:minHeight">64dp</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="UITheme.Sheet.Header.Label" parent="UITheme.Typography.Label">
+    <item name="android:gravity">center</item>
+    <item name="android:layout_gravity">center</item>
+  </style>
+
+  <style name="UITheme.Sheet.Header.Paragraph" parent="UITheme.Typography.Paragraph">
+    <item name="android:gravity">center</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:textColor">@color/content_secondary</item>
+  </style>
+
+  <style name="UITheme.Sheet.Header.Inner">
+    <item name="android:gravity">center</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:orientation">vertical</item>
+  </style>
+
+  <style name="UITheme.Sheet.Header.Line">
+    <item name="android:layout_height">2dp</item>
+    <item name="android:background">@color/border_opaque</item>
+    <item name="android:layout_gravity">start|bottom</item>
+  </style>
+
+  <style name="UITheme.Sheet.Header.BlueLine">
+    <item name="android:layout_height">2dp</item>
+    <item name="android:background">@color/accent</item>
+    <item name="android:layout_gravity">start|bottom</item>
+  </style>
+
+  <style name="UITheme.Sheet.Body" />
+
+  <style name="UITheme.Sheet.Body.Wrapper">
+    <item name="android:orientation">vertical</item>
+  </style>
+
+  <style name="UITheme.Sheet.Body.Text" parent="UITheme.Typography.Paragraph">
+    <item name="android:gravity">center</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:layout_marginStart">16dp</item>
+    <item name="android:layout_marginEnd">16dp</item>
+    <item name="android:layout_marginTop">4dp</item>
+    <item name="android:layout_marginBottom">4dp</item>
+  </style>
+
+  <style name="UITheme.Sheet.Button" />
+
+  <style name="UITheme.Sheet.Button.Primary" parent="UITheme.Button">
+    <item name="android:gravity">center</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:layout_marginStart">16dp</item>
+    <item name="android:layout_marginEnd">16dp</item>
+    <item name="android:layout_marginTop">4dp</item>
+    <item name="android:layout_marginBottom">4dp</item>
+  </style>
+
+  <style name="UITheme.Sheet.Button.Secondary" parent="UITheme.Button.Secondary">
+    <item name="android:gravity">center</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:layout_marginStart">16dp</item>
+    <item name="android:layout_marginEnd">16dp</item>
+    <item name="android:layout_marginTop">4dp</item>
+    <item name="android:layout_marginBottom">4dp</item>
+  </style>
+
+  <style name="UITheme.Sheet.Button.Tertiary" parent="UITheme.Button.Tertiary">
+    <item name="android:gravity">center</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:layout_marginStart">16dp</item>
+    <item name="android:layout_marginEnd">16dp</item>
+    <item name="android:layout_marginTop">4dp</item>
+    <item name="android:layout_marginBottom">4dp</item>
+  </style>
+</resources>

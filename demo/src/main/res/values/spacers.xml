@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="UITheme.Spacer">
+    <item name="android:minHeight">24dp</item>
+    <item name="android:maxHeight">24dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.64">
+    <item name="android:minHeight">64dp</item>
+    <item name="android:maxHeight">64dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.40">
+    <item name="android:minHeight">40dp</item>
+    <item name="android:maxHeight">40dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.34">
+    <item name="android:minHeight">34dp</item>
+    <item name="android:maxHeight">34dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.32">
+    <item name="android:minHeight">32dp</item>
+    <item name="android:maxHeight">32dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.28">
+    <item name="android:minHeight">28dp</item>
+    <item name="android:maxHeight">28dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.24">
+    <item name="android:minHeight">24dp</item>
+    <item name="android:maxHeight">24dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.20">
+    <item name="android:minHeight">20dp</item>
+    <item name="android:maxHeight">20dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.16">
+    <item name="android:minHeight">16dp</item>
+    <item name="android:maxHeight">16dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.12">
+    <item name="android:minHeight">12dp</item>
+    <item name="android:maxHeight">12dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.8">
+    <item name="android:minHeight">8dp</item>
+    <item name="android:maxHeight">8dp</item>
+  </style>
+
+  <style name="UITheme.Spacer.4">
+    <item name="android:minHeight">4dp</item>
+    <item name="android:maxHeight">4dp</item>
+  </style>
+</resources>

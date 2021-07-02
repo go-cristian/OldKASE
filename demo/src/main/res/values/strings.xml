@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">Ui Lib Demo</string>
+  <string name="sample_text">We ignite opportunity by setting the world in motion.\n0123456789</string>
+  <string name="sample_title">Title</string>
+  <string name="sample_desc">Description</string>
+  <string name="sample_button_text">❤ Do something</string>
+  <string name="primary">Primary</string>
+  <string name="secondary">Secondary</string>
+  <string name="tertiary">Tertiary</string>
+</resources>
