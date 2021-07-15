@@ -1,10 +1,10 @@
-package com.iyubinest.oldkase.blocks
+package dev.cgomez.oldkase.blocks
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
-import com.iyubinest.oldkase.R
+import dev.cgomez.oldkase.R
 
 class ProgressLine @JvmOverloads constructor(
   context: Context,

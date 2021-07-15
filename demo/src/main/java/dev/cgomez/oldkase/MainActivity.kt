@@ -1,4 +1,4 @@
-package com.iyubinest.oldkase
+package dev.cgomez.oldkase
 
 import android.os.Bundle
 import androidx.annotation.MainThread

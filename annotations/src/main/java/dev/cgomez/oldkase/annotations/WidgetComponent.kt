@@ -1,4 +1,4 @@
-package com.iyubinest.oldkase.annotations
+package dev.cgomez.oldkase.annotations
 
 @Retention(AnnotationRetention.SOURCE)
 @Target(

@@ -1,11 +1,11 @@
-package com.iyubinest.oldkase
+package dev.cgomez.oldkase
 
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.FragmentActivity
-import com.iyubinest.oldkase.annotations.WidgetComponent
-import com.iyubinest.oldkase.blocks.Grid
+import dev.cgomez.oldkase.annotations.WidgetComponent
+import dev.cgomez.oldkase.blocks.Grid
 
 val colors = listOf(
   "purple",

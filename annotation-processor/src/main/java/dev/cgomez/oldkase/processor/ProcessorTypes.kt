@@ -1,4 +1,4 @@
-package com.iyubinest.oldkase.processor
+package dev.cgomez.oldkase.processor
 
 import com.squareup.kotlinpoet.ClassName
 import com.squareup.kotlinpoet.ParameterizedTypeName.Companion.parameterizedBy

@@ -1,6 +1,6 @@
 @file:Suppress("TopLevelPropertyNaming", "TooManyFunctions")
 
-package com.iyubinest.oldkase
+package dev.cgomez.oldkase
 
 import android.content.Context
 import android.view.LayoutInflater

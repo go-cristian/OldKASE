@@ -1,4 +1,4 @@
-package com.iyubinest.oldkase.blocks
+package dev.cgomez.oldkase.blocks
 
 import android.R.attr
 import android.content.Context

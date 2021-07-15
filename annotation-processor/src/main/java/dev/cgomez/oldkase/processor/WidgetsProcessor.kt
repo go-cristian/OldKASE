@@ -1,13 +1,13 @@
-package com.iyubinest.oldkase.processor
+package dev.cgomez.oldkase.processor
 
 import com.google.auto.service.AutoService
-import com.iyubinest.oldkase.annotations.WidgetComponent
-import com.iyubinest.oldkase.processor.ProcessorTypes.Companion.BUNDLE
-import com.iyubinest.oldkase.processor.ProcessorTypes.Companion.FRAGMENT
-import com.iyubinest.oldkase.processor.ProcessorTypes.Companion.LAYOUT_INFLATER
-import com.iyubinest.oldkase.processor.ProcessorTypes.Companion.VIEW
-import com.iyubinest.oldkase.processor.ProcessorTypes.Companion.VIEW_GROUP
-import com.iyubinest.oldkase.processor.ProcessorTypes.Companion.optionsReturn
+import dev.cgomez.oldkase.annotations.WidgetComponent
+import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.BUNDLE
+import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.FRAGMENT
+import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.LAYOUT_INFLATER
+import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.VIEW
+import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.VIEW_GROUP
+import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.optionsReturn
 import com.squareup.kotlinpoet.FileSpec
 import com.squareup.kotlinpoet.FunSpec
 import com.squareup.kotlinpoet.KModifier.OVERRIDE
