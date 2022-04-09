@@ -1,6 +1,9 @@
 package dev.cgomez.oldkase.processor
 
-import com.google.auto.service.AutoService
+import com.squareup.kotlinpoet.FileSpec
+import com.squareup.kotlinpoet.FunSpec
+import com.squareup.kotlinpoet.KModifier.OVERRIDE
+import com.squareup.kotlinpoet.TypeSpec
 import dev.cgomez.oldkase.annotations.WidgetComponent
 import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.BUNDLE
 import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.FRAGMENT
@@ -8,14 +11,9 @@ import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.LAYOUT_INFLATER
 import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.VIEW
 import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.VIEW_GROUP
 import dev.cgomez.oldkase.processor.ProcessorTypes.Companion.optionsReturn
-import com.squareup.kotlinpoet.FileSpec
-import com.squareup.kotlinpoet.FunSpec
-import com.squareup.kotlinpoet.KModifier.OVERRIDE
-import com.squareup.kotlinpoet.TypeSpec
 import java.io.File
-import java.util.Locale
+import java.util.*
 import javax.annotation.processing.AbstractProcessor
-import javax.annotation.processing.Processor
 import javax.annotation.processing.RoundEnvironment
 import javax.annotation.processing.SupportedOptions
 import javax.annotation.processing.SupportedSourceVersion
@@ -24,7 +22,6 @@ import javax.lang.model.element.Element
 import javax.lang.model.element.ElementKind.METHOD
 import javax.lang.model.element.TypeElement
 
-@AutoService(Processor::class)
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 @SupportedOptions(WidgetsProcessor.KAPT_KOTLIN_GENERATED_OPTION_NAME)
 class WidgetsProcessor : AbstractProcessor() {

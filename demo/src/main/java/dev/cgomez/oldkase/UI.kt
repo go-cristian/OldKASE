@@ -28,7 +28,8 @@ fun FragmentTransaction.navAnimations() = setCustomAnimations(
   R.anim.exit_to_right,
 )
 
-@MainThread fun AppCompatActivity.replaceFragment(
+@MainThread
+fun AppCompatActivity.replaceFragment(
   fragment: Fragment,
   @IdRes id: Int = android.R.id.content
 ) {

@@ -1,16 +1,15 @@
-<vector
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:name="ft_avd_toarrow"
-  android:width="200dp"
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
   android:height="8dp"
+  android:name="ft_avd_toarrow"
   android:viewportHeight="40"
   android:viewportWidth="200"
+  android:width="200dp"
   >
   <path
-    android:name="path_line"
-    android:fillColor="#000000"
-    android:pathData="M 0,4 L 200,4"
     android:fillAlpha="0"
+    android:fillColor="#000000"
+    android:name="path_line"
+    android:pathData="M 0,4 L 200,4"
     android:strokeColor="@color/accent"
     android:strokeWidth="24"
     android:trimPathEnd="0.2"

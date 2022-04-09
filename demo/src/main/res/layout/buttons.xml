@@ -1,17 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:background="@color/background_primary"
   >
 
   <LinearLayout
+    style="@style/UITheme.Container.Margin"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    style="@style/UITheme.Container.Margin"
     >
+
+    <Space
+      style="@style/UITheme.Spacer.40"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <Space
+      style="@style/UITheme.Spacer.40"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <!--Primary-->
+    <Space
+      style="@style/UITheme.Spacer.40"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <Space
+      style="@style/UITheme.Spacer.40"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <!--Primary disabled-->
+    <Space
+      style="@style/UITheme.Spacer.40"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <Space
+      style="@style/UITheme.Spacer.40"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <Space
+      style="@style/UITheme.Spacer.40"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <Space
+      style="@style/UITheme.Spacer.40"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <!--Secondary-->
+    <Space
+      style="@style/UITheme.Spacer.40"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
 
     <TextView
       android:layout_width="wrap_content"
@@ -20,81 +76,12 @@
       android:textAppearance="@style/UITheme.Typography.Label"
       />
 
-    <Space
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      style="@style/UITheme.Spacer.40"
-      />
-
-    <!--Primary-->
-    <com.google.android.material.button.MaterialButton
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/sample_button_text"
-      style="@style/UITheme.Button"
-      />
-
-    <Space
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      style="@style/UITheme.Spacer.40"
-      />
-
-    <!--Primary disabled-->
-    <com.google.android.material.button.MaterialButton
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:enabled="false"
-      android:text="@string/sample_button_text"
-      style="@style/UITheme.Button"
-      />
-
-    <Space
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      style="@style/UITheme.Spacer.40"
-      />
-
+    <!--Secondary disabled-->
     <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="@string/secondary"
       android:textAppearance="@style/UITheme.Typography.Label"
-      />
-
-    <Space
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      style="@style/UITheme.Spacer.40"
-      />
-
-    <!--Secondary-->
-    <com.google.android.material.button.MaterialButton
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/sample_button_text"
-      style="@style/UITheme.Button.Secondary"
-      />
-
-    <Space
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      style="@style/UITheme.Spacer.40"
-      />
-
-    <!--Secondary disabled-->
-    <com.google.android.material.button.MaterialButton
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:enabled="false"
-      android:text="@string/sample_button_text"
-      style="@style/UITheme.Button.Secondary"
-      />
-
-    <Space
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      style="@style/UITheme.Spacer.40"
       />
 
     <TextView
@@ -104,39 +91,51 @@
       android:textAppearance="@style/UITheme.Typography.Label"
       />
 
-    <Space
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      style="@style/UITheme.Spacer.40"
-      />
-
-    <!--Tertiary-->
     <com.google.android.material.button.MaterialButton
+      style="@style/UITheme.Button"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/sample_button_text"
-      style="@style/UITheme.Button.Tertiary"
       />
 
-    <Space
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      style="@style/UITheme.Spacer.40"
-      />
-
-    <!--Tertiary disabled-->
     <com.google.android.material.button.MaterialButton
+      style="@style/UITheme.Button"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:enabled="false"
       android:text="@string/sample_button_text"
-      style="@style/UITheme.Button.Tertiary"
       />
 
-    <Space
+    <!--Tertiary-->
+    <com.google.android.material.button.MaterialButton
+      style="@style/UITheme.Button.Secondary"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      style="@style/UITheme.Spacer.40"
+      android:text="@string/sample_button_text"
+      />
+
+    <com.google.android.material.button.MaterialButton
+      style="@style/UITheme.Button.Secondary"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:enabled="false"
+      android:text="@string/sample_button_text"
+      />
+
+    <!--Tertiary disabled-->
+    <com.google.android.material.button.MaterialButton
+      style="@style/UITheme.Button.Tertiary"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/sample_button_text"
+      />
+
+    <com.google.android.material.button.MaterialButton
+      style="@style/UITheme.Button.Tertiary"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:enabled="false"
+      android:text="@string/sample_button_text"
       />
   </LinearLayout>
 </ScrollView>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
+  style="@style/UITheme.Container"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:fitsSystemWindows="true"
-  style="@style/UITheme.Container"
   >
 
   <FrameLayout
@@ -16,18 +15,18 @@
     />
 
   <com.google.android.material.appbar.AppBarLayout
+    style="@style/Widget.MaterialComponents.AppBarLayout.PrimarySurface"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/transparent"
     android:fitsSystemWindows="true"
-    style="@style/Widget.MaterialComponents.AppBarLayout.PrimarySurface"
     >
 
     <com.google.android.material.appbar.MaterialToolbar
       android:id="@+id/toolbar"
+      style="@style/UITheme.Toolbar"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      style="@style/UITheme.Toolbar"
       />
 
   </com.google.android.material.appbar.AppBarLayout>

@@ -2,18 +2,17 @@ buildscript {
   repositories {
     mavenCentral()
   }
+
+  dependencies {
+    classpath("com.vanniktech:gradle-maven-publish-plugin:0.15.1")
+  }
 }
 
 plugins {
   id 'java-library'
   id 'kotlin'
 }
-apply plugin: 'kotlin-kapt'
-
-kapt {
-  correctErrorTypes = true
-  generateStubs = true
-}
+apply plugin: "com.vanniktech.maven.publish"
 
 sourceSets {
   main {
@@ -39,6 +38,4 @@ dependencies {
 
   implementation("com.squareup:kotlinpoet:1.7.2")
   implementation("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
-  implementation("com.google.auto.service:auto-service:1.0-rc4")
-  kapt("com.google.auto.service:auto-service:1.0-rc4")
 }
