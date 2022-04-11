@@ -1,0 +1,29 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+    classpath 'com.vanniktech:gradle-maven-publish-plugin:0.15.1'
+  }
+}
+
+plugins {
+  id 'java-library'
+  id 'kotlin'
+}
+apply plugin: "com.vanniktech.maven.publish"
+
+java {
+  sourceCompatibility = JavaVersion.VERSION_11
+  targetCompatibility = JavaVersion.VERSION_11
+}
+
+compileKotlin {
+  kotlinOptions {
+    jvmTarget = "11"
+  }
+}
+
+dependencies {
+}

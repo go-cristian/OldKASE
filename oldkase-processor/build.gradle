@@ -1,0 +1,44 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  // Maven artifact publish
+  dependencies {
+    classpath 'com.vanniktech:gradle-maven-publish-plugin:0.15.1'
+  }
+}
+
+plugins {
+  id 'java-library'
+  id 'kotlin'
+}
+apply plugin: "com.vanniktech.maven.publish"
+apply plugin: 'org.jetbrains.kotlin.kapt'
+
+java {
+  sourceCompatibility = JavaVersion.VERSION_11
+  targetCompatibility = JavaVersion.VERSION_11
+}
+
+compileKotlin {
+  kotlinOptions {
+    jvmTarget = "11"
+  }
+}
+
+// Need to apply to all tasks like this so test tasks also get these compiler args
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
+  kotlinOptions {
+    freeCompilerArgs += [
+      '-Xopt-in=kotlin.RequiresOptIn',
+      "-Xopt-in=kotlin.contracts.ExperimentalContracts",
+      "-Xopt-in=androidx.room.compiler.processing.ExperimentalProcessingApi",
+      "-Xopt-in=com.squareup.kotlinpoet.javapoet.KotlinPoetJavaPoetPreview",
+    ]
+  }
+}
+
+dependencies {
+  implementation implementation(project(':oldkase-annotation',))
+  implementation("com.squareup:kotlinpoet:1.8.0")
+}

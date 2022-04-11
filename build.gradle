@@ -1,0 +1,35 @@
+buildscript {
+  repositories {
+    google()
+    mavenCentral()
+    gradlePluginPortal()
+  }
+
+  dependencies {
+    classpath 'com.android.tools.build:gradle:4.2.1'
+    classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:+'
+
+    classpath("com.vanniktech:gradle-maven-publish-plugin:0.15.1")
+    classpath("org.jetbrains.dokka:dokka-gradle-plugin:1.4.10.2")
+  }
+}
+
+allprojects {
+  repositories {
+    google()
+    mavenCentral()
+    jcenter()
+  }
+}
+
+allprojects {
+  plugins.withId("com.vanniktech.maven.publish") {
+    mavenPublish {
+      sonatypeHost = "S01"
+    }
+  }
+}
+
+task clean(type: Delete) {
+  delete rootProject.buildDir
+}
