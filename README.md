@@ -8,6 +8,14 @@ OldKASE it's inspired on airbnb's [showcase](https://github.com/airbnb/Showkase)
 
 Based on annotations it creates all the UI you need for exposing simple components, just return a `View`.
 
+## Installation
+
+Use next dependencies into your build.gradle
+```groovy
+implementation 'dev.cgomez:oldkase:0.0.2'
+kapt 'dev.cgomez.oldkase:oldkase-processor:0.0.2'
+```
+
 ## Example
 
 On your roots package create a file with all your definitions.
