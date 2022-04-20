@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.fragment.app.FragmentActivity
 import dev.cgomez.oldkase.annotations.WidgetComponent
 import dev.cgomez.oldkase.sample.blocks.Grid
-import dev.cgomez.sample.oldkase.R
+import dev.cgomez.oldkase.sample.R
 
 val colors = listOf(
   "purple",

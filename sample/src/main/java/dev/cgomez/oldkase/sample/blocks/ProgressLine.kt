@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
-import dev.cgomez.sample.oldkase.R
+import dev.cgomez.oldkase.sample.R
 
 class ProgressLine @JvmOverloads constructor(
   context: Context,

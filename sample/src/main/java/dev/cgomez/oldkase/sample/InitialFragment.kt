@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import dev.cgomez.sample.oldkase.R
+import dev.cgomez.oldkase.sample.R
 
 class InitialFragment : Fragment() {
   override fun onCreateView(

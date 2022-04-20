@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
-import dev.cgomez.sample.oldkase.R
+import dev.cgomez.oldkase.sample.R
 
 @MainThread
 fun EditText.content() = this.text.toString().trim()

@@ -5,7 +5,7 @@ import androidx.annotation.MainThread
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.appbar.MaterialToolbar
-import dev.cgomez.sample.oldkase.R
+import dev.cgomez.oldkase.sample.R
 
 class MainActivity : AppCompatActivity() {
 
